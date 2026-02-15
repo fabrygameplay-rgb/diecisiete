@@ -33,7 +33,6 @@ header h1 {
     text-shadow:
         2px 2px 4px rgba(0,0,0,0.6),
         -1px -1px 2px rgba(255,255,255,0.3);
-
 }
 
 nav {
@@ -151,15 +150,6 @@ footer p {
     font-weight: bold;
     margin: 2px 0;
     padding-left: 4px;
-}
-
-small {
-    text-align: left;
-    padding-left: 10px;
-    color:royalblue;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: italic;
-    font-weight: bold;
 }
 
 .content1, .content2 {
