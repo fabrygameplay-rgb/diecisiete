@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://img.freepik.com/fotos-premium/png-grafico-pasteles-papel-negocios-elemento-artesania-fondo-transparente_53876-1042870.jpg?semt=ais_user_personalization&w=740&q=80">
+    <title>DashBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Data Analisis System</h1>
+    </header>
+
+    <nav class="brands">
+        <button class="menu-toggle">☰ Menu</button>
+
+        <h2><a href="#" data-brand="general">General</a></h2>
+        <h2><a href="#" data-brand="arti">Arti Creat</a></h2>
+        <h2><a href="#" data-brand="uhu">UHU</a></h2>
+        <h2><a href="#" data-brand="stabilo">Stabilo</a></h2>
+        <h2><a href="#" data-brand="acrilex">Acrilex</a></h2>
+        <h2><a href="#" data-brand="nilo">Nilo</a></h2>
+        <h2><a href="#" data-brand="fabriano">Fabriano</a></h2>
+        <h2><a href="#" data-brand="sadipal">Sadipal</a></h2>
+        <h2><a href="#" data-brand="fredigoni">Fredigoni</a></h2>
+        <h2><a href="#" data-brand="kum">KUM</a></h2>
+        <h2><a href="#" data-brand="activity">Activity</a></h2>
+        <h2><a href="#" data-brand="econovo">Econovo</a></h2>
+        
+    </nav>
+
+    <main>
+        <section class="highSection">
+            <div class="content1">
+                <h3>Daily Sales</h3>
+                <p id="dailySales" class="metric">-----</p>
+            </div>
+            <div class="content1">
+                <h3>Monthly Sales</h3>
+                <p id="monthlySales" class="metric">-----</p>
+            </div>
+            <div class="content1">
+                <h3>Average Ticket</h3>
+                <p id="averageTicket" class="metric">-----</p>
+            </div>
+            <div class="content1">
+                <h3>Units Sold Today</h3>
+                <p id="unitsSoldToday" class="metric">-----</p>
+            </div>
+            <div class="content1">
+                <h3>Annulment Sales</h3>
+                <p id="annulmentSales" class="metric">-----</p>
+            </div>
+        </section>
+
+        <section class="lowSection">
+            <div class="content2">
+                <canvas id="dailyChart"></canvas>
+            </div>
+            <div class="content2">
+                <canvas id="hourlyBarChart"></canvas>
+            </div>
+            <div class="content2">
+                <canvas id="distributionChart"></canvas>
+            </div>
+            <div class="content2">
+                <canvas id="monthlyChart"></canvas>
+            </div>
+            <div class="content2">
+                <canvas id="monthlyBarChart"></canvas>
+            </div>
+            <div class="content2">
+                <canvas id="variationChart"></canvas>
+            </div>
+        </section>
+
+        <div class="lowP">
+            <p>This graphic is linked to Excel and changes automatically based on data. Just left click on it and select edit data.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>All rights reserved by Fabrizio with the "z".</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
