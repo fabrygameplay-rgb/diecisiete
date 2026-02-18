@@ -36,7 +36,6 @@ header h1 {
 }
 
 nav {
-    font-size: 26px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,6 +49,7 @@ nav {
 }
 
 nav a {
+    font-size: 26px;
     color: forestgreen;
     padding: 6px 12px;
     text-decoration: none;
