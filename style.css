@@ -76,6 +76,9 @@ nav.brands {
     overflow: hidden;      
 }
 
+nav.brands a {
+    font-size: clamp(14px, 1.1vw, 20px);
+}
 
 .menu-toggle {
     display: none;
