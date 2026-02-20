@@ -71,13 +71,13 @@ nav.brands {
     white-space: nowrap;    
     max-width: 1380px;
     margin: 0 auto 15px auto;
-    border-bottom: solid sienna 2px;
+    border-bottom: solid sienna 4px;
     padding-bottom: 10px;
     overflow: hidden;      
 }
 
 nav.brands a {
-    font-size: 24px;
+    font-size: 26px;
 }
 
 .menu-toggle {
