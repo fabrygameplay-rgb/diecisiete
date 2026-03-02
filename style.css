@@ -272,15 +272,14 @@ footer p {
     .highSection {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: nowrap;   
+        flex-wrap: nowrap;
         gap: 10px;
     }
 
-    .content1 {
-        flex: 1;            
+    .highSection .content1 {
+        flex: 1 1 0;
         max-width: none;
-        max-height: 30px;    
+        min-width: 0;
     }
 
     .metric {
@@ -288,26 +287,38 @@ footer p {
     }
 }
 
-@media (max-width: 600px) and (orientation: landscape) {
+@media (max-width: 600px) and (orientation: portrait) {
 
+    .highSection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 6px;
+    }
+
+    .highSection .content1 {
+        flex: 1 1 0;
+        min-width: 0;
+    }
+    
     nav.brands a {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     .highSection {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
         flex-wrap: nowrap;
-        gap: 6px;
+        gap: 5px;
     }
 
-    .content1 {
-        flex: 1;
-        max-width: none;   
+    .highSection .content1 {
+        flex: 1 1 0;
+        max-width: none;
+        min-width: 0;
     }
 
     .metric {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
