@@ -334,14 +334,21 @@ footer p {
 
 @media (max-width: 767px) and (orientation: landscape) {
 
+    nav {
+        margin-left: 0;
+    }
+
     nav.brands {
-        margin-left: 0;      
-        padding-left: 0px;
-        gap: 4px;
+        justify-content: flex-start;
+        padding-left: 16px;          
+        padding-right: 16px;
+        gap: 16px;                   
         overflow-x: auto;
-        overflow-y: hidden;
-        white-space: nowrap;
         scroll-behavior: smooth;
+    }
+
+    nav.brands h2 {
+        flex: 0 0 auto;
     }
 
     nav.brands a {
