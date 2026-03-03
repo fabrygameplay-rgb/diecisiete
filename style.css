@@ -263,7 +263,7 @@ footer p {
     }
 
     .metric {
-        font-size: 14px;
+        font-size: 10px;
     }
 }
 
@@ -291,7 +291,7 @@ footer p {
     }
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+@media (max-width: 600px) and (orientation: landscape) {
 
     .highSection {
         display: flex;
