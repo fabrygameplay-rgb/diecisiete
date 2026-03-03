@@ -235,7 +235,7 @@ footer p {
     }
 
     nav.brands a {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     main {
@@ -246,6 +246,10 @@ footer p {
     .highSection {
         flex-direction: column;
         gap: 10px;
+    }
+
+    .highSection h3 {
+        font-size: 14px;
     }
 
     .content1,
@@ -300,7 +304,7 @@ footer p {
         flex: 1 1 0;
         min-width: 0;
     }
-    
+
     nav.brands a {
         font-size: 13px;
     }
