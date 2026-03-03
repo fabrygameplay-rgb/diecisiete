@@ -335,8 +335,10 @@ footer p {
 @media (max-width: 767px) and (orientation: landscape) {
 
     nav.brands {
-        display: flex;
-        gap: 20px;
+        margin-left: 0;     
+        padding-left: 10px;
+        gap: 12px;
+
         overflow-x: auto;
         overflow-y: hidden;
         white-space: nowrap;
@@ -345,6 +347,5 @@ footer p {
 
     nav.brands a {
         font-size: 16px;
-        gap: 1px;
     }
 }
