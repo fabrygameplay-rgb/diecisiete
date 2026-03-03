@@ -336,6 +336,7 @@ footer p {
 
     nav.brands a {
         font-size: 12px;
+        gap: 2px;
     }
 
 }
