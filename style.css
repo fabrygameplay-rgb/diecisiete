@@ -244,7 +244,7 @@ footer p {
     }
 
     .highSection {
-        flex-direction: column;
+        flex-direction: row;
         gap: 10px;
     }
 
@@ -291,7 +291,16 @@ footer p {
     }
 }
 
-@media (max-width: 600px) and (orientation: portrait) {
+@media (max-width: 600px) and (orientation: landscape) {
+
+
+    nav {
+        flex-direction: row;
+    }
+
+    nav.brands a {
+        font-size: 12px;
+    }
 
     .highSection {
         display: flex;
@@ -303,10 +312,6 @@ footer p {
     .highSection .content1 {
         flex: 1 1 0;
         min-width: 0;
-    }
-
-    #brands h2 {
-        font-size: 10px;
     }
 
     .highSection {
