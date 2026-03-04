@@ -1,11 +1,11 @@
-# 📊 Data Analysis System
+# Data Analysis System
 
 Interactive and responsive sales dashboard that simulates real-time data by brand.  
 Built entirely with HTML, CSS and Vanilla JavaScript using the Canvas API.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Real-time simulated sales updates (every 5 seconds)
 - Brand filtering system
@@ -18,7 +18,7 @@ Built entirely with HTML, CSS and Vanilla JavaScript using the Canvas API.
 
 ---
 
-## 🖥️ Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3 (Flexbox, Grid, Media Queries)
@@ -29,7 +29,7 @@ No external libraries or frameworks were used.
 
 ---
 
-## 📊 Dashboard Metrics
+## Dashboard Metrics
 
 The system dynamically calculates:
 
@@ -43,7 +43,7 @@ All values update automatically as the simulation progresses.
 
 ---
 
-## 📈 Charts Included
+## Charts Included
 
 - Line Chart – Daily Sales progression
 - Bar Chart – Hourly Sales
@@ -56,7 +56,7 @@ All charts are manually drawn using the Canvas API.
 
 ---
 
-## 🔄 Simulation Logic
+## Simulation Logic
 
 Each brand has a defined profile:
 
@@ -75,7 +75,7 @@ The fictional business day runs from 08:00 to 20:00, then automatically advances
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
 Breakpoints implemented:
 
@@ -88,7 +88,7 @@ Mobile landscape includes horizontal scroll navigation for brand selection.
 
 ---
 
-## 🎮 Controls
+## Controls
 
 - Stop / Resume simulation
 - Hour navigation (◀ ▶ arrows)
@@ -96,7 +96,7 @@ Mobile landscape includes horizontal scroll navigation for brand selection.
 
 ---
 
-## 🧠 What This Project Demonstrates
+## What This Project Demonstrates
 
 - DOM manipulation
 - State management in JavaScript
@@ -107,6 +107,6 @@ Mobile landscape includes horizontal scroll navigation for brand selection.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Fabrizio with the "z"
