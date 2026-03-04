@@ -1,4 +1,4 @@
-#  aData Analysis System
+# Data Analysis System
 
 Interactive and responsive sales dashboard that simulates real-time data by brand.  
 Built entirely with HTML, CSS and Vanilla JavaScript using the Canvas API.
